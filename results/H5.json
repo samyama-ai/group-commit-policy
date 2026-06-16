@@ -1,0 +1,141 @@
+{
+  "ebs": {
+    "device": "ebs-gp3",
+    "F0_ms": 0.904802707666704,
+    "F0_p99_ms": 2.496696999969572,
+    "lambda_star_per_ms": 2.210426630085557,
+    "lambda_star_per_s": 2210.426630085557,
+    "rows": [
+      {
+        "Z": 4.0,
+        "lambda_per_ms": 5.929517302914148,
+        "greedy_overhead_ms": 1.621236755018069,
+        "best_timer_overhead_ms": 1.6037556444103107,
+        "greedy_vs_best": 1.0109001085475127
+      },
+      {
+        "Z": 1.0,
+        "lambda_per_ms": 12.646838100072122,
+        "greedy_overhead_ms": 1.5876033347927614,
+        "best_timer_overhead_ms": 1.565392960963728,
+        "greedy_vs_best": 1.0141883695550538
+      },
+      {
+        "Z": 0.2,
+        "lambda_per_ms": 16.75669710320694,
+        "greedy_overhead_ms": 1.7648203617300933,
+        "best_timer_overhead_ms": 1.7573175096001268,
+        "greedy_vs_best": 1.0042694914771968
+      },
+      {
+        "Z": 0.02,
+        "lambda_per_ms": 16.877524300622536,
+        "greedy_overhead_ms": 1.9507553931055672,
+        "best_timer_overhead_ms": 1.2408207048574018,
+        "greedy_vs_best": 1.572149292374802
+      }
+    ],
+    "greedy_vs_best_median": 1.0125442390512833
+  },
+  "nvme": {
+    "device": "instance-nvme",
+    "F0_ms": 0.03644848933034458,
+    "F0_p99_ms": 0.11923700003535487,
+    "lambda_star_per_ms": 54.87195866674599,
+    "lambda_star_per_s": 54871.95866674599,
+    "rows": [
+      {
+        "Z": 4.0,
+        "lambda_per_ms": 8.000254182804737,
+        "greedy_overhead_ms": 0.07862393627633964,
+        "best_timer_overhead_ms": 0.07959297725628282,
+        "greedy_vs_best": 0.9878250442017898
+      },
+      {
+        "Z": 1.0,
+        "lambda_per_ms": 30.627139591865618,
+        "greedy_overhead_ms": 0.08012031156020902,
+        "best_timer_overhead_ms": 0.07988602719836008,
+        "greedy_vs_best": 1.0029327326700976
+      },
+      {
+        "Z": 0.2,
+        "lambda_per_ms": 120.18891807555475,
+        "greedy_overhead_ms": 0.0756006945208401,
+        "best_timer_overhead_ms": 0.07593469647291073,
+        "greedy_vs_best": 0.9956014579950315
+      },
+      {
+        "Z": 0.02,
+        "lambda_per_ms": 265.6150829737051,
+        "greedy_overhead_ms": 0.10274030420507103,
+        "best_timer_overhead_ms": 0.10134528883835697,
+        "greedy_vs_best": 1.0137649749949311
+      }
+    ],
+    "greedy_vs_best_median": 0.9992670953325646
+  },
+  "postgres": {
+    "rows": [
+      {
+        "commit_delay_us": 0,
+        "tps": 6620.561512,
+        "lat_avg_ms": 4.833,
+        "clients": 32
+      },
+      {
+        "commit_delay_us": 10,
+        "tps": 6109.865729,
+        "lat_avg_ms": 5.237,
+        "clients": 32
+      },
+      {
+        "commit_delay_us": 25,
+        "tps": 7035.6736,
+        "lat_avg_ms": 4.548,
+        "clients": 32
+      },
+      {
+        "commit_delay_us": 50,
+        "tps": 7119.658574,
+        "lat_avg_ms": 4.495,
+        "clients": 32
+      },
+      {
+        "commit_delay_us": 100,
+        "tps": 5428.2536,
+        "lat_avg_ms": 5.895,
+        "clients": 32
+      },
+      {
+        "commit_delay_us": 200,
+        "tps": 7397.030776,
+        "lat_avg_ms": 4.326,
+        "clients": 32
+      },
+      {
+        "commit_delay_us": 500,
+        "tps": 5707.62563,
+        "lat_avg_ms": 5.607,
+        "clients": 32
+      },
+      {
+        "commit_delay_us": 1000,
+        "tps": 7145.90881,
+        "lat_avg_ms": 4.478,
+        "clients": 32
+      },
+      {
+        "commit_delay_us": 2000,
+        "tps": 5031.415847,
+        "lat_avg_ms": 6.36,
+        "clients": 32
+      }
+    ],
+    "tps_at_0": 6620.561512,
+    "best_tps": 7397.030776,
+    "best_commit_delay_us": 200,
+    "parameter_free_vs_best_tps": 0.8950296020777297
+  },
+  "H5a_pass": true
+}

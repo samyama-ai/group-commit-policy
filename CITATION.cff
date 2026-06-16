@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "group-commit-policy: when is group-commit tuning worth it?"
+authors:
+  - family-names: Mandarapu
+    given-names: Madhulatha
+    email: madhulatha@samyama.ai
+    affiliation: VaidhyaMegha Private Limited
+  - family-names: Kunkunuru
+    given-names: Sandeep
+    email: sandeep@samyama.ai
+    affiliation: VaidhyaMegha Private Limited
+version: 0.1.0
+date-released: 2026-06-16
+license: Apache-2.0
+repository-code: "https://github.com/samyama-ai/group-commit-policy"
+keywords: [group commit, write-ahead logging, fsync, queueing, ski-rental, PostgreSQL, OLTP]
+abstract: >
+  A pre-registered study of the optimal group-commit release policy. In closed-loop OLTP the parameter-
+  free greedy-pipelined policy self-clocks to a computable fixed point and is optimal at every load; the
+  open-loop sqrt-rule timer collapses onto it above a device-set load threshold lambda*=2/F0, so adaptive
+  tuning is vacuous there. Validated on synthetic sweeps, real fsync distributions (EBS gp3 vs instance
+  NVMe), and a real PostgreSQL commit_delay sweep.

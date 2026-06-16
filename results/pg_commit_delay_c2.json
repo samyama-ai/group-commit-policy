@@ -1,0 +1,11 @@
+[
+  {"commit_delay_us":0,"tps":1048.489960,"lat_avg_ms":1.908,"clients":2},
+  {"commit_delay_us":10,"tps":862.073147,"lat_avg_ms":2.320,"clients":2},
+  {"commit_delay_us":25,"tps":851.635206,"lat_avg_ms":2.348,"clients":2},
+  {"commit_delay_us":50,"tps":1003.486450,"lat_avg_ms":1.993,"clients":2},
+  {"commit_delay_us":100,"tps":914.475033,"lat_avg_ms":2.187,"clients":2},
+  {"commit_delay_us":200,"tps":1264.798384,"lat_avg_ms":1.581,"clients":2},
+  {"commit_delay_us":500,"tps":940.182378,"lat_avg_ms":2.127,"clients":2},
+  {"commit_delay_us":1000,"tps":758.606099,"lat_avg_ms":2.636,"clients":2},
+  {"commit_delay_us":2000,"tps":588.620425,"lat_avg_ms":3.398,"clients":2}
+]
