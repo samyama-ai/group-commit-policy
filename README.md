@@ -7,6 +7,8 @@ tuning — and find, from first principles and on a real engine, that in closed-
 
 > Problem: [`dbms_research/06-recovery-logging/optimal-group-commit-policy`](https://github.com/samyama-ai/dbms_research).
 > Honest baseline + characterization (mode b), not a SOTA claim. Limitations in §6.
+>
+> **Preprint:** [arXiv:2606.18187](https://arxiv.org/abs/2606.18187) (cs.DB).
 
 ## The setup
 
